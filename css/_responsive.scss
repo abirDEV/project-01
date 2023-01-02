@@ -1,0 +1,120 @@
+
+
+
+@media screen and (max-width: 992px) {
+    header {
+        nav {
+             
+        .menu {
+        flex-basis: 54%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+}
+#service {
+    .row {
+        .col {
+            margin-bottom: 10px;
+            flex-basis: 250px;
+            .single-service {
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+#about-section .about-overview {
+  
+    justify-content: center;
+    
+}
+#about-section .about-overview .abt-img {
+    flex-basis: 80%;
+}
+#about-section .about-overview .abt-text {
+    flex-basis: 80%;
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        nav {
+             
+        .menu {
+       display: none;
+}
+.mobile {
+    display: block;
+}
+}
+.hero-section {
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+}
+#service {
+    .row {
+        .col {
+            flex-basis: 250px;
+            .single-service {
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+#about-section .about-overview .abt-img {
+    flex-basis: 100%;
+}
+#about-section .about-overview .abt-text {
+    flex-basis: 100%;
+    // margin-top: 30px;
+}
+
+}
+
+@media screen and (max-width:670px) {
+    #service .row .col {
+        flex-basis: 273px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+  
+    #service {
+        .row {
+            .col {
+                flex-basis: 100%;
+                .single-service {
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    #overview .overview-text h2, #overview .overview-text p {
+       
+        font-size: 30px;
+    }
+    #overview .overview-text p {
+        font-size: 20px;
+    }
+    #overview .overview-text button {
+      
+        font-size: 14px;
+       
+    }
+}

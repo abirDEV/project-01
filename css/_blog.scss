@@ -1,0 +1,35 @@
+#blog-section {
+    width: 100%;
+    position: relative;
+    margin: 60px 0;
+
+    .blog-title {
+        text-align: center;
+
+        p {
+            font-size: 22px;
+            text-transform: capitalize;
+            color: #168141;
+        }
+        h2 {
+            font-size: 50px;
+            text-transform: capitalize;
+            margin: 15px 0;
+            color: #333;
+        }
+    }
+    .single-blog {
+        width: 100%;
+        display: grid;
+        grid-template-columns : repeat(auto-fit, minmax(400px , 1fr));
+        // grid-template-rows: repeat();
+
+        .single-blog-items {
+            .img-thum {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
